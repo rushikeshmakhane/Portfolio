@@ -1,0 +1,70 @@
+.sectionFooter{
+ height: 300px;
+}
+.f_sec1{
+    min-height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.f_width{
+    width: 33%;
+    text-align: center;
+}
+.name p{
+color: gray;
+}
+.logo img{
+    width: 90px;
+}
+.links i{
+    font-size: 30px;
+    padding: 10px;
+    transition: all 0.7s ease;
+    color: white;
+}
+
+.f_line{
+    width: 99vw;
+    height: 1px;
+    background-color: rgb(61, 61, 61);
+}
+.f_sec2 p{
+    text-align: center;
+    color:gray;
+}
+ .links i:hover{
+    color: gray;
+    transform: translateY(-2px) scale(1.05);
+ }
+
+
+
+ @media (max-width: 768px) {
+   .f_sec1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.f_width{
+    width: 80%;
+}
+.name h2 {
+    font-size: large;
+}
+.name p{
+    font-size: small;
+}
+.logo img{
+    width: 40px;
+}
+.links p{
+    display: none;
+}
+.links i{
+    font-size: 26px;
+}
+
+ 
+ }
